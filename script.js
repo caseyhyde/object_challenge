@@ -9,6 +9,7 @@ function State (state, revenue, locationCount) {
       return this.revenue/this.locationCount;
   };
 }
+
 // object instances
 var illinois = new State("IL", 5000, 12);
 var minnesota = new State("MN", 300, 3);
